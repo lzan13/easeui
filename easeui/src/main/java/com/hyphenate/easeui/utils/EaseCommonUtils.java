@@ -197,6 +197,8 @@ public class EaseCommonUtils {
     public static EMConversationType getConversationType(int chatType) {
         if (chatType == EaseConstant.CHATTYPE_SINGLE) {
             return EMConversationType.Chat;
+        }else if(chatType == EaseConstant.CHATTYPE_PA){
+            return EMConversationType.Chat;
         } else if (chatType == EaseConstant.CHATTYPE_GROUP) {
             return EMConversationType.GroupChat;
         } else {
